@@ -1,0 +1,2 @@
+$cache = \Yii::$app->mycache;
+$cache -> cachePath = 'myPath';//不能直接使用别名 其他属性亦可修改
